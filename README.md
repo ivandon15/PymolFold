@@ -1,8 +1,5 @@
 # PymolFold
-Inspired by [ColabFold](https://github.com/sokrypton/ColabFold) by [Sergey O](https://github.com/sokrypton).  
-Visualization inspired by [pymol-color-alphafold](https://github.com/cbalbin-bio/pymol-color-alphafold).  
-Thanks to ESMFold by Meta and the [API](https://esmatlas.com/about#api).  
-Fast access to AlphaMissense predicted Human proteins provided by [hegelab](https://alphamissense.hegelab.org/).
+PymolFold without PXMeter integrated version (DockQ installation takes too long time)
 ## Quick Start Guide
 
 ### Step 1: Install PyMOL
@@ -23,7 +20,7 @@ There are two ways to install PymolFold in PyMOL:
 4. In the URL field, enter:
 
     ```
-    https://raw.githubusercontent.com/JinyuanSun/PymolFold/refs/heads/main/pymolfold.py
+    https://raw.githubusercontent.com/ivandon15/PymolFold/refs/heads/pymolfold_min2/pymolfold_min.py
     ```
 
 5. Click `Fetch`. A command prompt window will appear, showing the progress of the installation. 
@@ -36,7 +33,7 @@ There are two ways to install PymolFold in PyMOL:
 2. In the PyMOL command line (starting with `PyMOL>`), copy and paste the following command, then press Enter:
 
     ```bash
-    run https://raw.githubusercontent.com/JinyuanSun/PymolFold/refs/heads/main/pymolfold.py
+    run https://raw.githubusercontent.com/ivandon15/PymolFold/refs/heads/pymolfold_min2/pymolfold_min.py
     ```
 
 3. Wait patiently as PyMOL downloads and installs the PymolFold plugin.

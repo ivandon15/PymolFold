@@ -83,6 +83,8 @@ def ensure_package(pkg_name):
                     "--upgrade",
                     pkg_name,
                     "--index-url",
+                    "https://pypi.tuna.tsinghua.edu.cn/simple",
+                    "--extra-index-url",
                     "https://pypi.org/simple",
                 ]
             )
